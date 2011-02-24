@@ -61,7 +61,8 @@ describe "LayoutLinks" do
        #click_button
        
        # as alternative use integration_sign_in
-       # note that @user is used as a class variable and not local so we need to create it!
+       # note that @user is used as a class variable and 
+       # not local so we need to create it "@user" and not "user"!
 	   integration_sign_in(@user)
     end
 
